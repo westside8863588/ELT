@@ -1,0 +1,86 @@
+body {
+    background-image: url(Photo/Фон.jpeg);
+    background-size: cover;
+}
+
+#spisok {
+color: #ffffff;
+padding: 10px;
+margin: 10px;
+font-size: 25px;
+font-weight: 600;
+border: 1px solid #ffffff;
+border-radius: 50px;
+box-shadow: 5px -5px 10px rgb(255, 255, 255);
+letter-spacing: 1px;
+text-decoration: none;
+position: absolute;
+top: 160px;
+
+
+}
+
+h1{
+color: #ffffff;
+font-size: 70px;
+padding: 10px;
+margin: 10px;
+opacity: 0.5;
+font-family: 'Times New Roman', Times, serif;
+position: absolute;
+left: 40px;
+
+
+}
+
+#org{
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    box-shadow: 5px -5px 10px rgb(255, 255, 255);
+    position: absolute;
+    top: 240px;
+    text-decoration: none;
+
+
+}
+
+#otpuska{
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid #ffffff;
+    border-radius: 50px;
+    box-shadow: 5px -5px 10px rgb(255, 255, 255);
+    position: absolute;
+    top: 320px;
+    text-decoration: none;
+
+
+}
+
+
+#spisok:hover{
+color: #000000;
+background: rgb(255, 255, 255);
+transition: 0.3s linear;
+}
+
+#org:hover{
+    color: #000000;
+    background: rgb(255, 255, 255);
+    transition: 0.3s linear;
+    }
+
+    #otpuska:hover{
+        color: #000000;
+        background: rgb(255, 255, 255);
+        transition: 0.3s linear;
+        }
+
