@@ -1,32 +1,16 @@
 body {
     background-image: url(Photo/Фон.jpeg);
+    scroll-behavior: smooth;
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-#spisok {
-color: #ffffff;
-padding: 10px;
-margin: 10px;
-font-size: 25px;
-font-weight: 600;
-border: 1px solid #ffffff;
-border-radius: 50px;
-box-shadow: 5px -5px 10px rgb(255, 255, 255);
-letter-spacing: 1px;
-text-decoration: none;
-position: absolute;
-top: 180px;
-
-
 }
 
 h1{
 color: #ffffff;
 font-size: 90px;
 top: 2px;
-opacity: 0.5;
-left: 40px;
+opacity: 0.2;
+left: 440px;
 position: absolute;
 
 }
@@ -41,7 +25,7 @@ position: absolute;
     border-radius: 50px;
     box-shadow: 5px -5px 10px rgb(255, 255, 255);
     position: absolute;
-    top: 260px;
+    top: 160px;
     text-decoration: none;
 
 
@@ -57,18 +41,14 @@ position: absolute;
     border-radius: 50px;
     box-shadow: 5px -5px 10px rgb(255, 255, 255);
     position: absolute;
-    top: 340px;
+    top: 240px;
     text-decoration: none;
 
 
 }
 
 
-#spisok:hover{
-color: #000000;
-background: rgb(255, 255, 255);
-transition: 0.3s linear;
-}
+
 
 #org:hover{
     color: #000000;
@@ -83,18 +63,16 @@ transition: 0.3s linear;
         }
 
 @media screen and (max-width: 500px) { #otpuska {
-    font-size: 15px;top: 200px;}
+    font-size: 15px;top: 150px;}
 }
-@media screen and (max-width: 500px) { #spisok {
-    font-size: 15px; top: 80px;}
-}
+
 @media screen and (max-width: 500px) { #org {
-    font-size: 15px; top: 140px;}
+    font-size: 15px; top: 90px;}
 }
 @media screen and (max-width: 500px) { background-image {
     font-size: 15px;}
 }
 @media screen and (max-width: 500px) { h1 {
-    font-size: 40px;left: 10px; top: 1px;}
+    font-size: 40px;left: 140px; top: 1px;}
 }
 
