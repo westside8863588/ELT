@@ -95,17 +95,39 @@ body {
 
 
 
+
+
+@media screen and (max-width: 500px) { #spisok {
+    font-size: 15px; top: 50px;}
+}
+
 @media screen and (max-width: 500px) { #otpuska {
-    font-size: 15px;top: 150px;}
+    font-size: 15px;top: 110px;}
 }
 
 @media screen and (max-width: 500px) { #org {
-    font-size: 15px; top: 90px;}
+    font-size: 15px; top: 170px;}
 }
+
+@media screen and (max-width: 500px) { #prostoy {
+    font-size: 15px;top: 50px;}
+}
+
+@media screen and (max-width: 500px) { #trening {
+    font-size: 15px;top: 110px;}
+}
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 500px) { background-image {
     font-size: 15px;}
 }
-@media screen and (max-width: 500px) { h1 {
-    font-size: 40px;left: 140px; top: 1px;}
-}
+
 
